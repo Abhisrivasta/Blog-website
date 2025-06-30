@@ -1,7 +1,27 @@
 {
   "dependencies": {
+    "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.1",
     "nodemon": "^3.1.10"
-  }
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhisrivasta/Blog-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhisrivasta/Blog-website/issues"
+  },
+  "homepage": "https://github.com/Abhisrivasta/Blog-website#readme",
+  "description": ""
 }
